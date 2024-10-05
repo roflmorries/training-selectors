@@ -1,0 +1,28 @@
+* {
+    background-color: grey;
+    margin: 20px;
+}
+h1 {
+    background-color: crimson;
+}
+.selector {
+    background-color: aquamarine;
+}
+#selector {
+    background-color: bisque;
+}
+a[href*="page"] {
+    background-color: blueviolet;
+}
+div p.nested {
+    background-color: darkblue;
+}
+div > p.child {
+    background-color: darkgreen;
+}
+.outside .inside {
+    background-color: darkorange;
+}
+div#id-div.div-class h3 {
+    background-color: lightcyan;
+}

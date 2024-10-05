@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>rndm page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+<h1>Применяется к тегу h1, вес - 0,0,0,1</h1>
+
+<p class="selector">Применяется к тегу p, вес - 0,0,1,0</p>
+
+<p id="selector">Применяется к тегу p, который находится внутри элемента div c id, на первом уровне, вес - 0,1,0,0</p>
+
+<div>
+    <a href="https://example.com/page1">Применяется к тегу a c атрибутом page, который находится в элементе div, вес - 0,0,1,0 </a>
+</div>
+
+<div>
+    <p class="nested">Применяется к тегу p, который находится внутри элемента div и является вложенным, на первом уровне, вес - 0,0,0,2</p>
+</div>
+
+<div>
+    <p class="child">Применяется к тегу p, который является дочерним элементом div'a, вес - 0,0,0,2</p>
+</div>
+
+<div class="outside">
+    <span class="inside">Пример селекторов, которые являются последовательными, вес - 0,0,2,0</span>
+</div>
+
+<div id="id-div" class="div-class">
+    <h3>Пример комбинации селекторов: вложенность с классом и id, вес - 0,1,1,1</h3>
+</div>
+
+</body>
+</html>
