@@ -26,3 +26,9 @@ div > p.child {
 div#id-div.div-class h3 {
     background-color: lightcyan;
 }
+.first + .second {
+    background-color: springgreen;
+}
+.first-sibling ~ .second-sibling {
+    background-color: gold;
+}
